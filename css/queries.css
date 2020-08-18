@@ -82,7 +82,7 @@
     .areas {
         margin-top: 2em;
         background-color: #fafafa;
-        height: 53em;
+        height: 62em;
     }
     .areas-head {
         text-transform: capitalize;
@@ -92,13 +92,13 @@
     .areas-para {
         text-align: center;
         color: #000;
-        font-size: 2em;
+        font-size: 3em;
     }
     .about-paragraph {
         font-family: "Open Sans";
         font-size: 0.9em;
         margin-top: 1em;
-        line-height: 2em;
+        line-height: 5em;
     }
     .helping {
         display: flex;
@@ -117,11 +117,12 @@
         font-size: 1em;
         margin-bottom: 1em;
         font-family: Open sans;
+        line-height: 6em;
     }
     .helping-list {
         list-style-type: circle;
         font-size: 1em;
-        line-height: 6em;
+        line-height: 8em;
         opacity: 0.7;
     }
     .helping-btn {
@@ -134,7 +135,7 @@
         border-radius: 10px;
         margin-top: 20px;
         color: #ec008c;
-        font-size: 2em;
+        font-size: 3em;
         margin-top: 1em;
     }
     .helping-image {
@@ -178,6 +179,7 @@
     .messages {
         font-size: 0.9em;
         font-family: "Open Sans";
+        line-height: 5em;
     }
     .featured-text {
         border: 1px solid #fff;
@@ -220,6 +222,9 @@
     }
     .form-popup {
         left: 21em;
+    }
+    .text-message {
+        line-height: 5em;
     }
     
 }
@@ -309,7 +314,7 @@
     .areas {
         margin-top: 2em;
         background-color: #fafafa;
-        height: 53em;
+        height: 62em;
     }
     .areas-head {
         text-transform: capitalize;
@@ -320,15 +325,14 @@
     .areas-para {
         text-align: center;
         color: #000;
-        font-family: lato;
-        font-size: 2em;
+        font-size: 3em;
         font-family: "Open Sans";
     }
     .about-paragraph {
         font-family: "Open Sans";
         font-size: 0.9em;
         margin-top: 1em;
-        line-height: 2em;
+        line-height: 5em;
     }
     .helping {
         display: flex;
@@ -347,12 +351,13 @@
     .helping-message {
         font-size: 1em;
         margin-bottom: 1em;
+        line-height: 6em;
    
     }
     .helping-list {
         list-style-type: circle;
         font-size: 1em;
-        line-height: 6em;
+        line-height: 8em;
         opacity: 0.7;
         font-family: "Open Sans";
     }
@@ -366,7 +371,7 @@
         border-radius: 10px;
         margin-top: 20px;
         color: #ec008c;
-        font-size: 2em;
+        font-size: 3em;
         margin-top: 1em;
     }
     .helping-image {
@@ -411,6 +416,7 @@
     .messages {
         font-size: 0.9em;
         font-family: "Open Sans";
+        line-height: 5em;
     }
     .featured-text {
         border: 1px solid #fff;
@@ -455,6 +461,9 @@
     .form-popup {
        
         left: 21em;
+    }
+    .text-message {
+        line-height: 5em;
     }
     
     
