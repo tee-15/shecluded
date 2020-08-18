@@ -6,10 +6,17 @@
         display: block;
         width: 2em;
     }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        height: 7em;
+    }
     .menu {
-        width: 1em;
+        width: 2em;
         transform: rotate(180deg);
         transition: all 0.2s ease-in;
+        margin-left: -3em;
+        margin-top: 1em;
     }
     .header-left {
         position: fixed;
@@ -19,12 +26,17 @@
         display: block;
     }
     img.close {
-        width: 1em;
-        margin-top: 0em;
+        width: 2em;
+        margin-left: -3em;
+        margin-top: 1em;
+    }
+    img.logo {
+        margin-left: 3em;
+        width: 10em;
     }
     .header__list {
         flex-direction: column;
-        margin-top: 2em;
+        margin-top: 3.5em;
         position: fixed;
         width: 103%;
         height: 16em;
@@ -117,12 +129,12 @@
         font-size: 1em;
         margin-bottom: 1em;
         font-family: Open sans;
-        line-height: 6em;
+        line-height: 4em;
     }
     .helping-list {
         list-style-type: circle;
         font-size: 1em;
-        line-height: 8em;
+        line-height: 5em;
         opacity: 0.7;
     }
     .helping-btn {
@@ -202,7 +214,7 @@
         margin-top: 6em;
     }
     .footer {
-        font-size: 24px;
+        font-size: 30px;
         flex-direction: column;
         text-align: center;
     }
@@ -215,13 +227,6 @@
     }
     .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
         font-size: 27px;
-    }
-    .open-button {
-        left: 30em;
-        font-size: 0.8em;
-    }
-    .form-popup {
-        left: 21em;
     }
     .text-message {
         line-height: 5em;
@@ -237,10 +242,21 @@
         display: block;
         width: 2em;
     }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        height: 7em;
+    }
+    img.logo {
+        margin-left: 3em;
+        width: 10em;
+    }
     .menu {
-        width: 1em;
+        width: 2em;
         transform: rotate(180deg);
         transition: all 0.2s ease-in;
+        margin-left: -3em;
+        margin-top: 1em;
     }
     .header-left {
         position: fixed;
@@ -250,12 +266,13 @@
         display: block;
     }
     img.close {
-        width: 1em;
-        margin-top: 0em;
+        width: 2em;
+        margin-left: -3em;
+        margin-top: 1em;
     }
     .header__list {
         flex-direction: column;
-        margin-top: 2em;
+        margin-top: 3.5em;
         position: fixed;
         width: 103%;
         height: 16em;
@@ -351,13 +368,13 @@
     .helping-message {
         font-size: 1em;
         margin-bottom: 1em;
-        line-height: 6em;
+        line-height: 4em;
    
     }
     .helping-list {
         list-style-type: circle;
         font-size: 1em;
-        line-height: 8em;
+        line-height: 5em;
         opacity: 0.7;
         font-family: "Open Sans";
     }
@@ -416,7 +433,7 @@
     .messages {
         font-size: 0.9em;
         font-family: "Open Sans";
-        line-height: 5em;
+        line-height: 4em;
     }
     .featured-text {
         border: 1px solid #fff;
@@ -439,7 +456,7 @@
         margin-top: 6em;
     }
     .footer {
-        font-size: 24px;
+        font-size: 30px;
         flex-direction: column;
         text-align: center;
     }
@@ -453,15 +470,7 @@
     .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
         font-size: 27px;
     }
-    .open-button {
-        left: 12em;
-        font-size: 1.8em;
-    }
    
-    .form-popup {
-       
-        left: 21em;
-    }
     .text-message {
         line-height: 5em;
     }
@@ -477,6 +486,11 @@
         width: 28em;
         margin-top: 5em;
     }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        height: 7em;
+    }
     .about__woman {
         width: 16em;
     }
@@ -542,7 +556,7 @@
         display: none;
     }
     .footer {
-        font-size: 24px;
+        font-size: 30px;
         flex-direction: column;
         text-align: center;
     }
@@ -557,13 +571,10 @@
     .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
         font-size: 27px;
     }
-    .open-button {
-        left: 7em;
-        font-size: 0.8em;
-    }
-    .form-popup {
-       
-        left: 5em;
+   
+    img.logo {
+        margin-left: 3em;
+        width: 10em;
     }
     
 
@@ -575,6 +586,11 @@
         width: 28em;
         margin-top: 5em;
     }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        height: 7em;
+    }
     .about__woman {
         width: 16em;
     }
@@ -640,7 +656,7 @@
         display: none;
     }
     .footer {
-        font-size: 24px;
+        font-size: 30px;
         flex-direction: column;
         text-align: center;
     }
@@ -655,12 +671,11 @@
     .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
         font-size: 27px;
     }
-    .open-button {
-        left: 7em;
-        font-size: 0.8em;
+    
+    img.logo {
+        margin-left: 3em;
+        width: 10em;
     }
-    .form-popup {
-       
-        left: 5em;
-    }
+    
+
 }   
