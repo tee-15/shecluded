@@ -1,0 +1,657 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .header__icon {
+        cursor: pointer;
+        margin-top: 16px;
+        display: block;
+        width: 2em;
+    }
+    .menu {
+        width: 1em;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-in;
+    }
+    .header-left {
+        position: fixed;
+        height: 20%;
+        width: 20%;
+        background-color: white;
+        display: block;
+    }
+    img.close {
+        width: 1em;
+        margin-top: 0em;
+    }
+    .header__list {
+        flex-direction: column;
+        margin-top: 2em;
+        position: fixed;
+        width: 103%;
+        height: 16em;
+        background: white;
+        color: hsl(228, 39%, 23%);
+        display: none;
+        text-align: center;
+        transition: all.5s;
+        line-height: 1.5em;
+        font-size: 2em;
+    }
+    .about {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4em;
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn {
+        background-color: #ec008c;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 1em;
+       
+    }
+    .about__woman {
+        width: 30em;
+    }
+    .areas-images {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+        flex-direction: column;
+        text-align: center;
+    }
+    .micro-image {
+        width: 26em;
+        
+    }
+    .borrower-image {
+        width: 409px;
+        height: 254px;
+    }
+    .building-image {
+        width: 283px;
+        height: 177px;
+        margin-top: 3em;
+    }
+    .areas {
+        margin-top: 2em;
+        background-color: #fafafa;
+        height: 53em;
+    }
+    .areas-head {
+        text-transform: capitalize;
+        font-size: 2em;
+        margin-bottom: 2em;
+    }
+    .areas-para {
+        text-align: center;
+        color: #000;
+        font-size: 2em;
+    }
+    .about-paragraph {
+        font-family: "Open Sans";
+        font-size: 0.9em;
+        margin-top: 1em;
+        line-height: 2em;
+    }
+    .helping {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 24em;
+        flex-direction: column;
+    }
+    .helping-text {
+        text-align: center;
+    }
+    .helping-head {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+    .helping-message {
+        font-size: 1em;
+        margin-bottom: 1em;
+        font-family: Open sans;
+    }
+    .helping-list {
+        list-style-type: circle;
+        font-size: 1em;
+        line-height: 6em;
+        opacity: 0.7;
+    }
+    .helping-btn {
+        background-color: #fff;
+        border: 1px solid #ec008c;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #ec008c;
+        font-size: 2em;
+        margin-top: 1em;
+    }
+    .helping-image {
+        text-align: center;
+    }
+    img.video-image {
+        width: 61em;
+        margin-top: 5em;
+    }
+    .join-image{
+        display: none;
+    }
+    .join-flex-box {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+        flex-direction: column;
+        text-align: center;
+    }
+    .join-box {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 3em;
+    }
+    .join-boxes {
+        margin-bottom: 3em;
+    }
+    .join-boxe {
+        margin-top: 4em;
+    }
+    .numbes {
+        display: none;
+    }
+    .register {
+        font-size: 2em;
+        font-family: "Open Sans";
+    }
+    .number {
+        display: none;
+    }
+    .messages {
+        font-size: 0.9em;
+        font-family: "Open Sans";
+    }
+    .featured-text {
+        border: 1px solid #fff;
+        background-color: #fff;
+        position: relative;
+        top: -12em;
+        left: -6em;
+    }
+    .featured-message {
+        font-weight: bold;
+    }
+    .blog {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    .coolness {
+        width: 30em;
+        margin-top: 6em;
+    }
+    .footer {
+        font-size: 24px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+    }
+    .w3ls-login input[type=submit] {
+        font-size: 1.7em;
+    }
+    .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
+        font-size: 27px;
+    }
+    .open-button {
+        left: 30em;
+        font-size: 0.8em;
+    }
+    .form-popup {
+        left: 21em;
+    }
+    
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    .header__icon {
+        cursor: pointer;
+        margin-top: 16px;
+        display: block;
+        width: 2em;
+    }
+    .menu {
+        width: 1em;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-in;
+    }
+    .header-left {
+        position: fixed;
+        height: 20%;
+        width: 20%;
+        background-color: white;
+        display: block;
+    }
+    img.close {
+        width: 1em;
+        margin-top: 0em;
+    }
+    .header__list {
+        flex-direction: column;
+        margin-top: 2em;
+        position: fixed;
+        width: 103%;
+        height: 16em;
+        background: white;
+        color: hsl(228, 39%, 23%);
+        display: none;
+        text-align: center;
+        transition: all.5s;
+        line-height: 1.5em;
+        font-size: 2em;
+    }
+    .about {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4em;
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn {
+        background-color: #ec008c;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 1em;
+        font-family: "Open Sans";
+       
+    }
+    .about__woman {
+        width: 30em;
+    }
+    .areas-images {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+        flex-direction: column;
+        text-align: center;
+    }
+    .micro-image {
+        width: 26em;
+        
+    }
+    .borrower-image {
+        width: 409px;
+        height: 254px;
+    }
+    .building-image {
+        width: 283px;
+        height: 177px;
+        margin-top: 3em;
+    }
+    .areas {
+        margin-top: 2em;
+        background-color: #fafafa;
+        height: 53em;
+    }
+    .areas-head {
+        text-transform: capitalize;
+        font-size: 2em;
+        margin-bottom: 2em;
+        font-family: "Open Sans";
+    }
+    .areas-para {
+        text-align: center;
+        color: #000;
+        font-family: lato;
+        font-size: 2em;
+        font-family: "Open Sans";
+    }
+    .about-paragraph {
+        font-family: "Open Sans";
+        font-size: 0.9em;
+        margin-top: 1em;
+        line-height: 2em;
+    }
+    .helping {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 24em;
+        flex-direction: column;
+    }
+    .helping-text {
+        text-align: center;
+    }
+    .helping-head {
+        font-size: 2em;
+        margin-bottom: 1em;
+        font-family: "Open Sans";
+    }
+    .helping-message {
+        font-size: 1em;
+        margin-bottom: 1em;
+   
+    }
+    .helping-list {
+        list-style-type: circle;
+        font-size: 1em;
+        line-height: 6em;
+        opacity: 0.7;
+        font-family: "Open Sans";
+    }
+    .helping-btn {
+        background-color: #fff;
+        border: 1px solid #ec008c;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #ec008c;
+        font-size: 2em;
+        margin-top: 1em;
+    }
+    .helping-image {
+        text-align: center;
+    }
+    img.video-image {
+        width: 61em;
+        margin-top: 5em;
+    }
+    .join-image{
+        display: none;
+    }
+    .join-flex-box {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+        flex-direction: column;
+        text-align: center;
+    }
+    .join-box {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 3em;
+    }
+    .join-head {
+        text-align: center;
+        margin-top: 9em;
+    }
+    .join-boxe {
+        margin-top: 4em;
+    }
+    .numbes {
+        display: none;
+    }
+    .register {
+        font-size: 2em;
+        font-family: "Open Sans";
+    }
+    .number {
+        display: none;
+    }
+    .messages {
+        font-size: 0.9em;
+        font-family: "Open Sans";
+    }
+    .featured-text {
+        border: 1px solid #fff;
+        background-color: #fff;
+        position: relative;
+        top: -12em;
+        left: -6em;
+    }
+    .featured-message {
+        font-weight: bold;
+    }
+    .blog {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    .coolness {
+        width: 30em;
+        margin-top: 6em;
+    }
+    .footer {
+        font-size: 24px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+    }
+    .w3ls-login input[type=submit] {
+        font-size: 1.7em;
+    }
+    .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
+        font-size: 27px;
+    }
+    .open-button {
+        left: 12em;
+        font-size: 1.8em;
+    }
+   
+    .form-popup {
+       
+        left: 21em;
+    }
+    
+    
+
+
+}
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+    img.video-image {
+        width: 28em;
+        margin-top: 5em;
+    }
+    .about__woman {
+        width: 16em;
+    }
+    .areas-head {
+        text-transform: capitalize;
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+    .micro-image {
+        width: 18em;
+    }
+    .areas-para {
+        text-align: center;
+        color: #000;
+        font-family: lato;
+        font-size: 2em;
+    }
+    .borrower-image {
+        width: 274px;
+        height: 254px;
+    }
+    .building-image {
+        width: 164px;
+        height: 177px;
+        margin-top: 3em;
+    }
+    .helping-head {
+        font-size: 2em;
+        margin-bottom: 1em;
+        font-family: coco gothic;
+    }
+    .helping-message {
+        font-size: 1em;
+        margin-bottom: 1em;
+        font-family: Open sans;
+    }
+    .helping-list {
+        list-style-type: circle;
+        font-family: Open sans;
+        font-size: 1em;
+        line-height: 1em;
+        opacity: 0.7;
+    }
+    .helping-btn {
+        background-color: #fff;
+        border: 1px solid #ec008c;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #ec008c;
+        font-family: coco gothic;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+    .join-image{
+        display: none;
+    }
+    .featured {
+        margin-top: 7em;
+        display: none;
+    }
+    .footer {
+        font-size: 24px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+    .w3ls-login input[type=submit] {
+        font-size: 1.7em;
+    }
+    .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
+        font-size: 27px;
+    }
+    .open-button {
+        left: 7em;
+        font-size: 0.8em;
+    }
+    .form-popup {
+       
+        left: 5em;
+    }
+    
+
+
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    img.video-image {
+        width: 28em;
+        margin-top: 5em;
+    }
+    .about__woman {
+        width: 16em;
+    }
+    .areas-head {
+        text-transform: capitalize;
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+    .micro-image {
+        width: 18em;
+    }
+    .areas-para {
+        text-align: center;
+        color: #000;
+        font-family: lato;
+        font-size: 2em;
+    }
+    .borrower-image {
+        width: 274px;
+        height: 254px;
+    }
+    .building-image {
+        width: 164px;
+        height: 177px;
+        margin-top: 3em;
+    }
+    .helping-head {
+        font-size: 2em;
+        margin-bottom: 1em;
+        font-family: coco gothic;
+    }
+    .helping-message {
+        font-size: 1em;
+        margin-bottom: 1em;
+        font-family: Open sans;
+    }
+    .helping-list {
+        list-style-type: circle;
+        font-family: Open sans;
+        font-size: 1em;
+        line-height: 1em;
+        opacity: 0.7;
+    }
+    .helping-btn {
+        background-color: #fff;
+        border: 1px solid #ec008c;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #ec008c;
+        font-family: coco gothic;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+    .join-image{
+        display: none;
+    }
+    .featured {
+        margin-top: 7em;
+        display: none;
+    }
+    .footer {
+        font-size: 24px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+    .w3ls-login input[type=submit] {
+        font-size: 1.7em;
+    }
+    .w3ls-login input[type="email"], .w3ls-login input[type="password"] {
+        font-size: 27px;
+    }
+    .open-button {
+        left: 7em;
+        font-size: 0.8em;
+    }
+    .form-popup {
+       
+        left: 5em;
+    }
+}   
